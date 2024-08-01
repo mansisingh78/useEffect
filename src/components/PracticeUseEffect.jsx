@@ -12,7 +12,7 @@ const PracticeUseEffect = () => {
 
   console.log(data);
   return (
-    <div>
+    <div className="flex-col justify-center text-center p-2 gap-2">
       {data.map((item, index) => (
         <div key={index}>
           <h2>{item.title}</h2>
